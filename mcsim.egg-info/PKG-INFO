@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mcsim
+Version: 1.0.0
+Summary: A mcsim package that will help us implement a Skyrmion
+Author: Yassine Charouif
+Author-email: yc4923@imperial.ac.uk
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pytest
+Requires-Dist: pylint

@@ -1,0 +1,22 @@
+name: c_yassine2
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - openssl
+  - numpy
+  - matplotlib
+  - sympy
+  - pandas=2.0
+  - conda-forge::pendulum=2.1.2
+  - conda-forge::nbdime=3.2.1
+  - conda-forge::jupytext=1.15.2
+  - notebook=6.5
+  - jupyterlab=3.6 
+  - pip=23.2.1
+  - rise=5.7.1
+  - pytest
+  - pylint
+  - pip:
+     - -e .
